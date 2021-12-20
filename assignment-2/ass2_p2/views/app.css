@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    color: rgb(129, 6, 68);
+    font-family: cursive;
+}
+
+.input-field input {
+    padding: 0.8rem;
+}
+h2{
+    color: #8e54e9;
+}
+
+form .input-field:first-child {
+    margin-bottom: 1.5rem;
+}
+
+form input[type="submit"] {
+    background: linear-gradient(to left, #d4d9e6, #8e54e9);
+    color: white;
+    margin-top: 2rem;
+    padding: 0.4rem;
+}

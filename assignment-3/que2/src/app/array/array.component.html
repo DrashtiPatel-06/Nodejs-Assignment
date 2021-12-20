@@ -1,0 +1,18 @@
+<div style="width: 50%; float:left; height:100px; margin:10px;">
+<h1>Array in list</h1>
+  <li *ngFor="let user of users">
+    User
+    <ul>{{user.firstName}}&nbsp;{{user.lastName}}</ul>
+      <ul>{{user.email}}</ul>
+  </li>
+</div>
+
+<div style="width: 40%; float:left; height:100px; margin:10px;">
+<h1>Array in combo</h1>
+<label>Username:</label>&nbsp;
+  <select>
+    <option >select username</option>
+    <option *ngFor="let user of users">{{user.firstName}}&nbsp;{{user.lastName}}</option>
+  </select>
+</div>
+     
